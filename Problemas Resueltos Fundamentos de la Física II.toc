@@ -9,4 +9,7 @@
 \contentsline {paragraph}{Realizaci\'on:}{4}
 \contentsline {subsection}{\numberline {0.1.4}Ejercicio 4}{5}
 \contentsline {paragraph}{Enunciado:}{5}
+\contentsline {paragraph}{Realizaci\'on:}{5}
+\contentsline {subsection}{\numberline {0.1.5}Ejercicio 8}{5}
+\contentsline {paragraph}{Enunciado:}{5}
 \contentsline {paragraph}{Realizaci\'on:}{6}

@@ -97,5 +97,28 @@
 	\paragraph{Enunciado:}
 	Calcula el campo gravitatorio en los puntos $A$ y $B$ de la distribución de masa de la figura, en la que se muestra una esfera de radio $2R$ y densidad $\rho$, en cuyo interior existe una cavidad esférica de radio $R$ llena de un material de densidad $\rho$.
 	\paragraph{Realización:}
+	\subsection{Ejercicio 8}
+	\paragraph{Enunciado:}
+	Tenemos una distribución de masa situada horizontalmente que es un semicírculo de radio interior $R_1$, radio exterior $R_2$, como se muestra en la figura, y cuya densidad superficial de masa $\sigma$ es constante.
+	a) Calcular el campo gravitatorio en el punto $P$.
+	b) ¿Qué energía tendríamos que aportar para traer una masa $m$ puntual desde el infinito al punto $P$?
+	\begin{center}
+		\includegraphics[width=1\linewidth]{Ejercicio8}
+		\label{fig:ejercicio8}
+	\end{center}
+	\paragraph{Realización:}
+	Debido a la simetría, el campo se anula en la componente horizontal del dibujo. Así, podemos calcular el campo mediante una doble integral. Además, podemos dividir la semicorona circular en dos y hallar el campo que genera una mitad y multiplicar por dos:
+	\begin{align*}
+	\vec{g}&=2\int_{R_{1}}^{R_{2}}\int_{0}^{\frac{\pi}{2}}G\dfrac{\sigma rd\theta dr}{r^{2}}\sin\theta\hat{j}=2G\sigma\int_{R_{1}}^{R_{2}}\int_{0}^{\frac{\pi}{2}}\dfrac{drd\theta}{r}\sin\theta\hat{j}=\\
+	&=2G\sigma\int_{R_{1}}^{R_{2}}\dfrac{dr}{r}\left[-\cos\theta\right]_{0}^{\frac{\pi}{2}}=2G\sigma\int_{R_{1}}^{R_{2}}\dfrac{dr}{r}\hat{j}=2G\sigma\left[\ln\left(\dfrac{R_{2}}{R_{1}}\right)\right]\hat{j}
+	\end{align*}
+	Ahora, calculemos el potencial:
+	\begin{equation*}\label{key}
+	V=2\int_{R_{1}}^{R_{2}}\int_{0}^{\frac{\pi}{2}}G\dfrac{\sigma rd\theta dr}{r}=4\pi G\sigma\int_{R_{1}}^{R_{2}}dr=4\pi G\sigma\left(R_{2}-R_{1}\right)
+	\end{equation*}
+	Sabiendo $U=V\cdot m$, la expresión queda:
+	\begin{equation*}\label{key}
+	U=4\pi G\sigma\left(R_{2}-R_{1}\right)m
+	\end{equation*}
 \end{document}
 
